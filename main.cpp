@@ -92,6 +92,7 @@ float *Convolution(const float *inMat, const conv_param &convParam, int row_size
 
 float *Relu(const float *inMat, int size){
     auto *out = new float[size];
+#pragma omp parallel for
     for (int i = 0; i < size; ++i) {
         if (inMat[i] < 0){
             out[i] = 0;
@@ -111,6 +112,7 @@ inline float max_x(float a, float b){
 float *MaxPool(float * inMat, int channel, int row_size){
     const int out_row = row_size / 2;
     auto *out = new float[channel * out_row * out_row];
+#pragma omp parallel for
     for (int i = 0; i < channel; ++i) {
         for (int j = 0; j < out_row; ++j) {
             for (int k = 0; k < out_row; ++k) {
@@ -213,7 +215,7 @@ void getFiles( const string& path, vector<string>& files, vector<string> &file_n
 
 int main() {
     //图像读取
-    const string imgPath = R"(C:\Users\SeeE\Desktop\CS205-master\Project2\samples)";
+    const string imgPath = R"(C:\Users\SeeE\Desktop\Project2\picture)";
     auto start = std::chrono::steady_clock::now();
     auto end = std::chrono::steady_clock::now();
     auto duration = 0L;
@@ -240,6 +242,7 @@ int main() {
         cout << "--------------------------" << endl;
         delete[] out;
     }
+    cout << "Total " << file_name.size() << " files,";
     TIME_END
 }
 
