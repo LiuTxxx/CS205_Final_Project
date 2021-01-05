@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Final_Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\opencv\;CMake Files\opencv\new_build\;CMake Files\OpenBLAS\;CMake Files\OpenBLAS\lib\;CMake Files\OpenBLAS\lib\cmake\;CMake Files\OpenBLAS\lib\cmake\openblas\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Final_Project">
+				<Option output="C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Final_Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/SeeE/CLionProjects/Final_Project/include"/>
+					<Add directory="C:/Users/SeeE/CLionProjects/Final_Project"/>
+					<Add directory="E:/OpenBLAS/include"/>
+					<Add directory="E:/opencv/new_build"/>
+					<Add directory="E:/opencv/sources/include"/>
+					<Add directory="E:/opencv/sources/modules/core/include"/>
+					<Add directory="E:/opencv/sources/modules/flann/include"/>
+					<Add directory="E:/opencv/sources/modules/imgproc/include"/>
+					<Add directory="E:/opencv/sources/modules/ml/include"/>
+					<Add directory="E:/opencv/sources/modules/photo/include"/>
+					<Add directory="E:/opencv/sources/modules/dnn/include"/>
+					<Add directory="E:/opencv/sources/modules/features2d/include"/>
+					<Add directory="E:/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="E:/opencv/sources/modules/videoio/include"/>
+					<Add directory="E:/opencv/sources/modules/calib3d/include"/>
+					<Add directory="E:/opencv/sources/modules/highgui/include"/>
+					<Add directory="E:/opencv/sources/modules/objdetect/include"/>
+					<Add directory="E:/opencv/sources/modules/stitching/include"/>
+					<Add directory="E:/opencv/sources/modules/ts/include"/>
+					<Add directory="E:/opencv/sources/modules/video/include"/>
+					<Add directory="E:/opencv/sources/modules/gapi/include"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Final_Project"/>
+					<CompileFile command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Final_Project/fast">
+				<Option output="C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Final_Project.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/SeeE/CLionProjects/Final_Project/include"/>
+					<Add directory="C:/Users/SeeE/CLionProjects/Final_Project"/>
+					<Add directory="E:/OpenBLAS/include"/>
+					<Add directory="E:/opencv/new_build"/>
+					<Add directory="E:/opencv/sources/include"/>
+					<Add directory="E:/opencv/sources/modules/core/include"/>
+					<Add directory="E:/opencv/sources/modules/flann/include"/>
+					<Add directory="E:/opencv/sources/modules/imgproc/include"/>
+					<Add directory="E:/opencv/sources/modules/ml/include"/>
+					<Add directory="E:/opencv/sources/modules/photo/include"/>
+					<Add directory="E:/opencv/sources/modules/dnn/include"/>
+					<Add directory="E:/opencv/sources/modules/features2d/include"/>
+					<Add directory="E:/opencv/sources/modules/imgcodecs/include"/>
+					<Add directory="E:/opencv/sources/modules/videoio/include"/>
+					<Add directory="E:/opencv/sources/modules/calib3d/include"/>
+					<Add directory="E:/opencv/sources/modules/highgui/include"/>
+					<Add directory="E:/opencv/sources/modules/objdetect/include"/>
+					<Add directory="E:/opencv/sources/modules/stitching/include"/>
+					<Add directory="E:/opencv/sources/modules/ts/include"/>
+					<Add directory="E:/opencv/sources/modules/video/include"/>
+					<Add directory="E:/opencv/sources/modules/gapi/include"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 Final_Project/fast"/>
+					<CompileFile command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/SeeE/CLionProjects/Final_Project/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/main.cpp">
+			<Option target="Final_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/src/face_binary_cls.cpp">
+			<Option target="Final_Project"/>
+		</Unit>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/opencv/new_build/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\opencv\new_build\"/>
+		</Unit>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/opencv/new_build/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\opencv\new_build\"/>
+		</Unit>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/opencv/new_build/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\opencv\new_build\"/>
+		</Unit>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/OpenBLAS/lib/cmake/openblas/OpenBLASConfig.cmake">
+			<Option virtualFolder="CMake Files\OpenBLAS\lib\cmake\openblas\"/>
+		</Unit>
+		<Unit filename="C:/Users/SeeE/CLionProjects/Final_Project/OpenBLAS/lib/cmake/openblas/OpenBLASConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\OpenBLAS\lib\cmake\openblas\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
